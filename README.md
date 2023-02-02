@@ -7,7 +7,7 @@ Al ejecutarse el Endpoint: http://localhost:8082/api/getPagar
 
 El servicio recorre la Tabla cuentas_debito, con estatus Activa. Para realizar los Pagos con estatus Pendiente de la Tabla prestamos.
 
-Nota: Para que el Pago se realise, el Monto de la cuenta debe ser mayor al calculo del Pago.
+Filtro: Para que el Pago se realise, el Monto de la cuenta debe ser mayor al calculo del Pago.
 
 
 select * from prestamos;
